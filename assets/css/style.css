@@ -12,18 +12,13 @@
 	color: rgba(98, 45, 45, 1);
 }
 #buttonsWrapper {
-
+	margin-bottom: 20px;
 }
 #clickToAnimate {
-	/*margin-bottom: 0px;*/
 	margin-top: 200px;
-	/*background-color: white;*/
-	/*width: 400px;*/
-	/*height: 180px;*/
 	font-family: "Vibur", sans;
 	font-size: 40px;
 }
-
 .button {
 	margin: 6px;
 }

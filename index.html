@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gif search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+	<script type="text/javascript" src="assets/javascript/app.js" defer></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Doppio+One|Vibur|Ubuntu|Fjalla+One|Racing+Sans+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="display-4">search for animal gifs!
+		</div>
+	</div>
+	<div class="container">
+		<div class="buttonsRow row">
+			<div id="buttonsWrapper">
+			</div>
+		</div>
+
+		<div class="modal fade" tabindex="-1" role="dialog" id="clickToAnimate">
+				<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+      			<div class="modal-header">
+				<div class="modal-title">Click an image to animate it
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+		<div id="mainWrapper" class="row">
+			
+			<div id="gifContainer" class="col-md-8">
+			</div>
+			<div id="searchDiv" class="col-md-4">
+				<form id="form">
+					<span>...or add another animal: <input type="text" id="inputField">
+					<br>
+					<button type="submit" class="btn btn-dark">add animal</button>
+					</span>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
